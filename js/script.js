@@ -9,6 +9,8 @@ setTimeout(() => {
   document.getElementsByClassName("btn-a")[0].click();
 }, 1000);
 
+document.querySelector('.header').classList.add('active');
+
 
 menu.onclick = () => {
   menu.classList.toggle('fa-times');

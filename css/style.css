@@ -161,7 +161,7 @@ img {
 }
 
 .header .nav a {
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-transform: uppercase;
   font-family: 'Bebas-Neue-Pro-Bold';
   margin-left: 2rem;
@@ -216,7 +216,7 @@ img {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  gap: 3.5rem;
+  gap: 2rem;
   z-index: 1;
   background: url(../images/banner.jpg) no-repeat;
   background-size: cover;
@@ -226,8 +226,12 @@ img {
   justify-content: space-evenly;
 }
 
-.home-text,
-home-img {
+.home-text {
+  width: 65%;
+  text-align: center;
+}
+
+.home-img {
   width: 100%;
   text-align: center;
 }
@@ -907,7 +911,7 @@ home-img {
 }
 
 .footer {
-  background: url(../images/vectores/back-footer.svg) no-repeat, rgba(0, 0, 0, 0.959);
+  background: url(../images/vectores/mis-1.svg) repeat, rgba(0, 0, 0, 0.959);
   background-size: contain;
   background-position: right;
   padding: 3rem 9% !important;
@@ -1470,29 +1474,12 @@ input.whats-input[type=text]:focus {
     justify-content: center;
   }
 
-  .home {
-    background: none;
-    grid-template-columns: repeat(auto-fit, minmax(22rem, auto));
-  }
-
-  .home-1 {
-    width: 100%;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    gap: 3.5rem;
-    z-index: 1;
-    background: url(../images/banner-ver.png) no-repeat;
-    background-size: cover;
-    flex-wrap: wrap;
-    background-position: center;
-    justify-items: center;
-    flex-direction: row;
-    justify-content: space-evenly;
-  }
-
   .home .content h3 {
     font-size: 2.5rem;
+  }
+
+  .home {
+    background-position-x: -60rem;
   }
 
   .about {
