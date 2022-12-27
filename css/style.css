@@ -796,8 +796,8 @@ img {
 .blogs .box-container {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (minmax(38rem, 1fr))[auto-fit];
-  grid-template-columns: repeat(auto-fit, minmax(38rem, 1fr));
+  -ms-grid-columns: (minmax(30rem, 1fr))[auto-fit];
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   gap: 2rem;
 }
 
@@ -816,7 +816,7 @@ img {
 }
 
 .blogs .box-container .box .image {
-  height: 50rem;
+  height: 100%;
   overflow: hidden;
   position: relative;
 }
@@ -848,12 +848,12 @@ img {
 }
 
 .blogs .box-container .box .image .icons a i {
-  padding-right: 5rem;
-  color: var(--tertiary);
+  padding-right: 1rem;
+  color: var(--palet-1);
 }
 
 .blogs .box-container .box .image .icons a:hover {
-  color: var(--tertiary);
+  color: var(--palet-2);
 }
 
 .blogs .box-container .box .image img {
@@ -880,6 +880,7 @@ img {
   color: var(--gray);
   padding: 1.5rem 0;
 }
+
 
 .dom-content {
   display: flex;
@@ -1356,7 +1357,7 @@ input.whats-input[type=text]:focus {
   }
 
   .blogs .box-container .box .image {
-    height: 32rem;
+    height: 100%;
   }
 
   .blogs .box-container {
